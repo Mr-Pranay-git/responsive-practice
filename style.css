@@ -1,0 +1,82 @@
+@font-face {
+        font-family: NeueMachina-Light;
+        src: url(./NeueMachina-Light_gwWCZxVuQl.ttf);
+}
+@font-face {
+        font-family: Helvetica;
+        src: url(./Helvetica_NTUXwLmxSC.ttf);
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+html,
+body {
+        width: 100%;
+        height: 100%;
+        font-family: NeueMachina-Light;
+}
+
+nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 70px;
+        font-size: large;
+}
+
+.nav1 {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        width: 300px;
+}
+.nav1 h4{
+        font-size: 18px;
+        line-height: 1.4;
+        font-weight: 500;
+        
+}
+.nav1 img {
+        height: 55px;
+        width: 50px;
+}
+
+.nav2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        font-family:Helvetica, sans-serif;
+}
+.nav2 h4{
+        font-weight: 500;
+}
+
+.nav2 h5 {
+        font-size: 20px;
+        display: none;
+}
+
+@media (max-width:670px) {
+        nav{
+                padding: 15px 15px;
+        }
+        .nav1 h6{
+                font-size: 12px;
+        }
+        .nav1 img{
+                height: 35px;
+        }
+        .nav2 h4{
+                display: none;
+        }
+        .nav2 h5{
+                display: block;
+        }
+
+
+}
