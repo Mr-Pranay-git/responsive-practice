@@ -53,23 +53,27 @@ nav {
         font-family:Helvetica, sans-serif;
 }
 .nav2 h4{
-        font-weight: 500;
+        font-weight: 200;
 }
 
 .nav2 h5 {
         font-size: 20px;
         display: none;
 }
+.nav3{
+        /* display: none; */
+}
 
-@media (max-width:670px) {
+@media (max-width:700px) {
         nav{
                 padding: 15px 15px;
         }
-        .nav1 h6{
+        .nav1 h4{
                 font-size: 12px;
         }
         .nav1 img{
                 height: 35px;
+                width: auto;
         }
         .nav2 h4{
                 display: none;
