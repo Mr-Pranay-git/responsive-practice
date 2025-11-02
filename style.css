@@ -26,6 +26,8 @@ nav {
         justify-content: space-between;
         padding: 20px 70px;
         font-size: large;
+        position: fixed;
+        width: 100%;
 }
 
 .nav1 {
@@ -61,7 +63,7 @@ nav {
         display: none;
 }
 .nav3{
-        /* display: none; */
+        display: none;
 }
 
 @media (max-width:700px) {
