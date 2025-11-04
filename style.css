@@ -1,3 +1,9 @@
+:root{
+        --gray:#212121;
+        --green:#009560;
+        --white:#E9E9E9;
+        --black:#0C0C0C;
+}
 @font-face {
         font-family: NeueMachina-Light;
         src: url(./NeueMachina-Light_gwWCZxVuQl.ttf);
@@ -11,6 +17,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        color: var(--white);
 }
 
 html,
@@ -85,4 +92,27 @@ nav {
         }
 
 
+}
+main{
+        padding-top: 100px;
+}
+
+.section1{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 15px 70px;
+        font-family:Helvetica;
+}
+
+.section1 .left{
+        width: 45%;
+}
+.section1 .left h1{
+        font-size: 45px;
+}
+
+.section1 .right{
+        background: red;
+        width: 45%;
 }
