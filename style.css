@@ -28,6 +28,11 @@ body {
         background-color: var(--black);
 }
 
+.green{
+        color: var(--green);
+}
+
+
 nav {
         display: flex;
         align-items: center;
@@ -123,16 +128,24 @@ main{
         margin: 30px 0px;
 }
 .price{
-        font-size: 40px;
-        j
+        font-size: 35px;
+}
+.left .price .lgray{
+        font-size: 25px;
 }
 .section1 .left .tags h4{
         background-color: var(--gray);
         padding: 10px 20px;
         border-radius: 5px;
 }
-
-.section1 .right{
-        background: red;
-        width: 45%;
+.section1 .right .right-in{
+        width: 800px;
+        height: 800px;
+        background-color: green;
+}
+.section1 .right .right-in image{
+        width: 100%;
+}
+.section1 .right .right-in .image img{
+        width: 100%;
 }
