@@ -139,13 +139,33 @@ main{
         border-radius: 5px;
 }
 .section1 .right .right-in{
-        width: 800px;
-        height: 800px;
-        background-color: green;
+        width: 600px;
+        border-radius: 10px;
+        overflow: hidden;
 }
 .section1 .right .right-in image{
         width: 100%;
 }
 .section1 .right .right-in .image img{
         width: 100%;
+}
+.section1 .right .right-in .image-bottom{
+        padding: 20px;
+        padding-top: 40px;
+        background-color: var(--gray);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+}
+.right-in .image-bottom h4{
+        font-size: 17px;
+        padding: 10px;
+        background-color: #151515;
+        width: 45%;
+        border-radius: 5px;
+}
+.right-in .image-bottom h4 span{
+        color: #02E797;
 }
