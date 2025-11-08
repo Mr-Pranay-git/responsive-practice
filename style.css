@@ -29,7 +29,7 @@ body {
 }
 
 .green{
-        color: var(--green);
+        color: #02E797;
 }
 
 
@@ -129,6 +129,7 @@ main{
 }
 .price{
         font-size: 35px;
+        padding-top: 20px 0px;
 }
 .left .price .lgray{
         font-size: 25px;
@@ -137,6 +138,14 @@ main{
         background-color: var(--gray);
         padding: 10px 20px;
         border-radius: 5px;
+}
+.left h5{
+        color: #02E797;
+        font-size: 20px;
+}
+.section1 .left button{
+        background-color: #009560;
+        font-size: 50px;
 }
 .section1 .right .right-in{
         width: 600px;
