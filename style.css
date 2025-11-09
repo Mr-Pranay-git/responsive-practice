@@ -145,12 +145,29 @@ main{
 }
 .section1 .left button{
         background-color: #009560;
-        font-size: 50px;
+        font-size: 22px;
+        font-weight: 600;
+        padding: 25px;
+        width: 255px;
+        border: none;
+        border-radius: 5px;
+        margin: 10px;
+}
+.section1 .left button:nth-child(2){
+  background-color: #353535;
 }
 .section1 .right .right-in{
         width: 600px;
         border-radius: 10px;
         overflow: hidden;
+}
+.section1 .left h6{
+        font-size: 20px;
+        margin: 10px 0px;
+        font-weight: 500;
+}
+.section1 .left h6 span{
+        color: #02E797;
 }
 .section1 .right .right-in image{
         width: 100%;
