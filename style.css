@@ -195,3 +195,9 @@ main{
 .right-in .image-bottom h4 span{
         color: #02E797;
 }
+
+@media (max-width:1200px){
+        .section1 .left h1{
+                font-size: 4vw;
+        }
+}
