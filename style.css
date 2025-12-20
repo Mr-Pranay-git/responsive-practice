@@ -201,3 +201,8 @@ main{
                 font-size: 4vw;
         }
 }
+@media (max-width:800px){
+        .section1 .left h1{
+                font-size: 30px;
+        }
+}
